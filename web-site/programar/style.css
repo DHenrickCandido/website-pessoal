@@ -1,0 +1,166 @@
+#faixa {
+background-color: #292626; 
+width: 100%; 
+height: 70px; 
+position: absolute;
+top: 0px;
+left: 0px;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    
+    text-align: left;
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;   
+}
+
+a:hover {
+    color: gray;
+}
+
+
+
+
+#head2 {
+    position: absolute;
+    top: 25px;
+    left: 740px;
+
+}
+
+
+#head3 {
+    position: absolute;
+    top: 25px;
+    left: 875px;
+    text-align: left;
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#head4 {
+    position: absolute;
+    top: 25px;
+    left: 990px;
+    text-align: left;
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+
+
+#head5 {
+    position: absolute;
+    top: 25px;
+    left: 1100px;
+    text-align: left;
+    font-family: calibri;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.programar-titulo {
+    color: black;
+    position: absolute;
+    top: 130px;
+    left: 37%;
+    font-family: calibri;
+    font-size: 40px;
+}
+
+.prog-text {
+    position: absolute;
+    top: 200px;
+    left: 17%;
+    text-align: justify;
+    color: grey;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+#imagens-texto {
+    position: relative;
+    height: 1050px;
+}
+
+.img1 {
+    background: url('20180904_224008.jpg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 350px;
+    left: 10%;  
+    width: 300px;
+    height: 130px;
+    border : 4px solid #292626; 
+    padding : 15px;
+}
+
+.img1-texto {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    text-align: justify;
+    color: grey;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.img2 {
+    background: url('20181129_162609.jpg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 580px;
+    left: 10%;  
+    width: 300px;
+    height: 130px;
+    border : 4px solid #292626; 
+    padding : 15px;
+    transform: rotateX(180deg);
+}
+
+.img2-texto {
+    position: absolute;
+    top: 630px;
+    left: 600px;
+    text-align: justify;
+    color: grey;
+    font-family: calibri;
+    font-size: 20px;
+}
+
+.img3 {
+    background: url('robot.jpg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 820px;
+    left: 10%;  
+    width: 255px;
+    height: 130px;
+    border : 4px solid #292626; 
+    padding : 15px;
+}
+
+.img3-texto {
+    position: absolute;
+    top: 855px;
+    left: 600px;
+    text-align: justify;
+    color: grey;
+    font-family: calibri;
+    font-size: 20px;
+}
+

@@ -1,0 +1,362 @@
+body {
+    background-color: #292626;
+    text-align: center;
+    
+}
+
+
+#imagem {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: url('fundo.jpg') no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+#head {
+    position: absolute;
+    top: 50px;
+    left: 80px;
+    text-align: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+
+
+#head2 {
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    text-align: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+#head2:hover {
+    background-color: aliceblue;
+}
+
+#head3 {
+    position: absolute;
+    top: 50px;
+    left: 360px;
+    text-align: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+#head3:hover {
+    background-color: aliceblue;
+}
+
+#head4 {
+    position: absolute;
+    top: 50px;
+    left: 460px;
+    text-align: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+#head4:hover {
+    background-color: aliceblue;
+}
+
+#head5 {
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+    text-align: left;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px white;
+}
+
+#head5:hover {
+    background-color: aliceblue;
+}
+
+#saiba {
+    font-family: calibri;
+    position: absolute;
+    top: 600px;
+    font-size: 28px;
+    left: 48%;
+    color: white;
+}
+
+
+.foto-saiba {
+    background:url('readarrow.png') no-repeat;
+    position: absolute;
+    top: 600px;
+    left: 46.5%;
+    background-size: contain; 
+    width: 150px;
+    height: 250px;
+    
+}
+
+/*================CABEÇALHO================*/
+.titulo {
+    text-shadow: 1px 1px white;
+    color: black;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-family: calibri;
+    font-size: 50px;  
+} 
+
+.intro {
+    text-shadow: 2px 2px white;
+    text-align: justify;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    font-family: calibri;
+    font-size: 25px;   
+}
+
+/*==============CABEÇALHO=================*/
+
+
+/*==============DADOS PESSOAIS============*/
+
+#dados-pessoais {
+    position: absolute;
+    top: 790px;
+    left: 100px;
+    text-align: left;
+    height: 610px;
+}
+
+.dados-pessoais-titulo {
+    text-align: left;
+    font-family: calibri;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.dados {
+    text-align: left;
+    position: relative;
+    top: 130px;
+    left: 300px;
+    font-family: calibri;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.foto {
+    background: url('foto.jpg') no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 130px;
+    left: 0%;  
+    width: 150px;
+    height: 250px;
+}
+
+/*===============DADOS PESSOAIS===========*/
+
+/*===============COLEGIOS=================*/
+
+#fundo-branco {
+    position: relative;
+    top: 1350px;
+    left: -10px;
+    text-align: left;
+    height: 2050px;
+    width: 1585px;
+    background-color: white;
+    background-size: contain;
+}
+
+#colegios {
+    position: absolute;
+    top: 7%;
+    left: 100px;
+    text-align: left;
+    height: 610px;
+}
+
+.colegios-titulo {
+    text-align: left;
+    font-family: calibri;
+    font-size: 40px;
+    color: black;
+    color: black;
+}
+
+ol  {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    list-style-type: decimal;
+    list-style-position: outside;
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+a {
+  text-decoration: none;
+  font-family: calibri;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+a:hover {
+  font-family: calibri;
+  font-size: 30px;
+  color:grey;
+}
+/*================COLEGIOS===============*/
+
+/*==================CURSOS================*/
+
+#cursos {
+    position: absolute;
+    top: 2000px;
+    left: 100px;
+    text-align: left;
+    height: 610px;
+}
+
+.cursos-titulo {
+    text-align: left;
+    font-family: calibri;
+    font-size: 40px;
+    color: black;
+    color: black;
+}
+
+table {
+      position: relative;
+      top: 90px;
+      left: 80px;   
+      text-align: center;  
+      font-family: calibri;
+      font-size: 25px;
+      width: 70%;
+      background-color: #ffffff;
+      border: 4px solid black;
+      padding: 10px;
+      text-shadow: 1px 1px 1px #ffffff; 
+}
+
+.corCelula {
+      background-color: gray;
+      color: white;
+      text-shadow: none;
+}
+
+.cabecalho {
+      background-color: #292626;
+      color: white;
+      font-size: 30px;
+      font-weight: bold;
+      text-shadow: none;
+}
+
+
+/*==================CURSOS================*/
+
+/*================ATIVIDADES==============*/
+
+#atividades {
+    position: absolute;
+    top: 2800px;
+    left: 100px;
+    text-align: left;
+    height: 610px;
+}
+
+.atividades-titulo {
+    text-align: left;
+    font-family: calibri;
+    font-size: 40px;
+    color: black;
+    color: black;
+    
+}
+
+ul {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    list-style-type: square;
+    list-style-position: outside;
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+/*================ATIVIDADES==============*/
+
+/*==================CURSO=================*/
+
+#tecnico {
+    position: absolute;
+    top: 3550px;
+    left: 100px;
+    text-align: left;
+    height: 400px;
+}
+
+.tecnico-titulo {
+    text-align: left;
+    font-family: calibri;
+    font-size: 40px;
+    color: white;
+    
+}
+
+p {
+    position: relative;
+    top: 15%;
+    left: 7%;
+    text-align: justify;
+    color: white;
+    font-family: calibri;
+    font-size: 25px;      
+}
+
+
+
+
+
+/*==================CURSO=================*/
+.fig {
+    background:url('COTUCA_logo.png') no-repeat;
+    position: absolute;
+    top: 4000px;
+    left: 44.5%;
+    background-size: contain; 
+    width:100px;
+    height: 200px;
+}
